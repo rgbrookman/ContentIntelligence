@@ -1,0 +1,38 @@
+.homepageMain {
+    display: grid; 
+    grid-template-rows: repeat(5, 1fr);
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    row-gap: 16px;
+    column-gap: 16px;
+    height: 80vh;
+    margin: 24px;
+}
+
+.tableContainer {
+    grid-column: 1 / 4;
+    grid-row: 1 / 5;
+}
+
+.homeTable {
+    color: #EBF4FA;
+}
+
+.homeTable thead {
+    color: #EBF4FA;
+}
+
+.homeTable tr {
+    font-size: 14px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    color: #EBF4FA;
+}
+
+.creatorTracker {
+    grid-column: 4 / 4;
+    grid-row: 1 / span 5;
+    background-color: #EBF4FA;
+    color: black; 
+
+    border-radius: 10px;
+}

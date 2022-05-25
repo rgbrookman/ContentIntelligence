@@ -1,0 +1,44 @@
+.landingPageMain {
+    height: 90vh;
+}
+
+.siteHeader {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff; 
+    height: 30vh;
+    padding: 48px;
+}
+
+.siteExplainer {
+    background-color: #fff;
+    color: black; 
+    height: 30vh;
+    margin: 24px;
+    border-radius: 10px;;
+}
+
+.siteExplainer span, p {
+    color: black;
+}
+.homepageIcon{
+    color: black;
+    height: 150px;
+    width: 150px;
+}
+.categoriseCol, .dashboardCol, .testcentreCol {
+    color: #fff; 
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.caseStudies {
+    
+}
